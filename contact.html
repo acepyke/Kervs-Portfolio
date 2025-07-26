@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Your Name</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Link to the external CSS file for the contact page -->
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <!-- Main Content Section for Contact Page -->
+    <main class="contact-main-content">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h1 class="contact-title">Get in Touch</h1>
+                <p class="contact-subtitle">I'd love to hear from you! Send me a message.</p>
+            </div>
+
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Kervin Biongcog" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="kervin.B@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Project Inquiry, Collaboration, etc." required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Tell me about your project or inquiry..." required></textarea>
+                </div>
+                <button type="submit" class="submit-button"><a href="index.html">Send Message</a></button>
+            </form>
+
+    </main>
+
+</body>
+</html>
